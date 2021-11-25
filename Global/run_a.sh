@@ -15,8 +15,8 @@ python Global/train_domain_A.py \
 --use_vae_which_epoch latest \
 --which_epoch latest \
 --k_size 4 --use_v2 --mc 64 --start_r 1 --kl 1 --no_cgan \
---dataroot D:\\Desktop\\plan\\Old2Life\\Global\\test_old \
---outputs_dir /home/aistudio/work/Old2Life/output/ \
---checkpoints_dir /home/aistudio/work/Old2Life/checkpoints \
+--dataroot /old-photos/Global/test_old \
+--outputs_dir /output/ \
+--checkpoints_dir /checkpoints \
 --niter 15 \
 --niter_decay 15
